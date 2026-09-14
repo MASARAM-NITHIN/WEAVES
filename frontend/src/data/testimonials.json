@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Ananya Sundaram",
+    "location": "Chennai, Tamil Nadu",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "The pure Kanchipuram wedding saree I bought for my daughter's wedding was beyond breathtaking. The weight of the pure gold zari and richness of silk was recognized by everyone. Truly world-class quality!"
+  },
+  {
+    "id": 2,
+    "name": "Meera Ramakrishnan",
+    "location": "Bengaluru, Karnataka",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "Sree Padmavathi Silks is my absolute go-to for authentic handloom sarees. The Mysore Silk and Banarasi brocade I ordered arrived exquisitely packaged with genuine silk mark certification."
+  },
+  {
+    "id": 3,
+    "name": "Kavitha Reddy",
+    "location": "Hyderabad, Telangana",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "The color accuracy and fabric feel are exactly as shown online. The customer team guided me over video call to select the matching blouse work. Outstanding royal experience!"
+  },
+  {
+    "id": 4,
+    "name": "Shalini Nair",
+    "location": "Kochi, Kerala",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "Fast delivery, supreme weaving, and unmatched traditional craftsmanship! The Soft Silk saree drape feels so smooth and effortless for long festive functions."
+  },
+  {
+    "id": 5,
+    "name": "Pooja Sharma",
+    "location": "Mumbai, Maharashtra",
+    "avatar": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "I purchased an Organza floral silk saree for a celebrity awards night and received so many compliments! Padmavathi Silks combines tradition with modern haute couture seamlessly."
+  },
+  {
+    "id": 6,
+    "name": "Sujata Agarwal",
+    "location": "Kolkata, West Bengal",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "The authentic Banarasi silk weave with silver tested zari was so royal! You can tell it's handwoven by master artisans with pure passion."
+  },
+  {
+    "id": 7,
+    "name": "Nandini Venkataraman",
+    "location": "Coimbatore, Tamil Nadu",
+    "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "Heritage and trust since generations. My mother shopped here, and now I buy all my family wedding silks from Sree Padmavathi Silks."
+  },
+  {
+    "id": 8,
+    "name": "Radhika Rao",
+    "location": "Visakhapatnam, Andhra Pradesh",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "The Uppada Jamdani saree was light as air yet looked so magnificent on stage. Thank you for preserving India's rich handloom weaving traditions."
+  },
+  {
+    "id": 9,
+    "name": "Divya Krishnamurthy",
+    "location": "London, United Kingdom",
+    "avatar": "https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "Ordering from overseas was seamless! The saree arrived safely packaged in a silk preservation box within 4 days. Exceptional service!"
+  },
+  {
+    "id": 10,
+    "name": "Sunita Patel",
+    "location": "Ahmedabad, Gujarat",
+    "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=200&q=80",
+    "rating": 5,
+    "review": "The Chanderi Tissue silk collection is unmatched. The golden sheen and delicate coin motifs are simply gorgeous."
+  }
+]

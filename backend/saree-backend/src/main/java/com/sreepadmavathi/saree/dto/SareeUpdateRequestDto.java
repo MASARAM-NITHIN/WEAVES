@@ -1,0 +1,33 @@
+package com.sreepadmavathi.saree.dto;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+import lombok.Data;
+import java.math.BigDecimal;
+
+@Data
+public class SareeUpdateRequestDto {
+    @NotBlank(message = "Saree name is required")
+    private String sareeName;
+
+    private Long fabricTypeId;
+    private java.util.List<Long> collectionIds;
+    private String description;
+    private String imageUrl;
+
+    @NotNull(message = "Actual price is required")
+    @Positive(message = "Actual price must be positive")
+    private BigDecimal actualPrice;
+
+    private BigDecimal discountPercent;
+
+    @NotNull(message = "Discounted price is required")
+    @Positive(message = "Discounted price must be positive")
+    private BigDecimal discountedPrice;
+
+    private Integer stockAvailable;
+    private Boolean inStock;
+    private Boolean isNew;
+    private Boolean isBestSeller;
+}

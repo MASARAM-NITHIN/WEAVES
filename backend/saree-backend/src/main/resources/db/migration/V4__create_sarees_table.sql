@@ -1,0 +1,20 @@
+CREATE TABLE sarees (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    saree_name VARCHAR(255) NOT NULL,
+    fabric_type_id BIGINT,
+    collection_id BIGINT,
+    description TEXT,
+    image_url VARCHAR(255),
+    actual_price DECIMAL(10, 2) NOT NULL,
+    discount_percent DECIMAL(5, 2) DEFAULT 0.0,
+    discounted_price DECIMAL(10, 2) NOT NULL,
+    stock_available INT DEFAULT 0,
+    in_stock BOOLEAN DEFAULT FALSE,
+    is_new BOOLEAN DEFAULT FALSE,
+    is_best_seller BOOLEAN DEFAULT FALSE,
+    avg_rating DECIMAL(3, 2) DEFAULT 0.0,
+    rating_count INT DEFAULT 0,
+    published_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_sarees_fabric FOREIGN KEY (fabric_type_id) REFERENCES fabric_types(id) ON DELETE SET NULL,
+    CONSTRAINT fk_sarees_collection FOREIGN KEY (collection_id) REFERENCES theme_collections(id) ON DELETE SET NULL
+);

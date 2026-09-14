@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-maroon: #7B112C;        /* Royal Kanchipuram Crimson */
+  --maroon-dark: #580B1F;           /* Deep Crimson */
+  --maroon-light: #9E173B;          /* Rose Crimson */
+  --royal-gold: #C8A54B;            /* Temple Zari Gold */
+  --gold-light: #F3D078;            /* Shimmering Light Gold */
+  --gold-dark: #9E7D29;             /* Antique Gold Accent */
+  --ivory-bg: #FFFDF8;              /* Soft Pure Silk Ivory Background */
+  --ivory-card: #FFFFFF;            /* Pure Card White */
+  --emerald-green: #0F6A50;         /* Emerald Accent */
+  --charcoal: #2E1C2B;             /* Crisp Dark Charcoal Text */
+  --muted-text: #666666;            /* Muted Gray Text */
+  --border-gold: rgba(200, 165, 75, 0.25);
+  --shadow-luxury: 0 15px 35px rgba(123, 17, 44, 0.08);
+  --shadow-hover: 0 20px 40px rgba(123, 17, 44, 0.16);
+  --gold-gradient: linear-gradient(135deg, #F3D078 0%, #C8A54B 50%, #9E7D29 100%);
+  --maroon-gradient: linear-gradient(135deg, #7B112C 0%, #580B1F 100%);
+  --glass-bg: rgba(255, 253, 248, 0.85);
+  --glass-border: rgba(200, 165, 75, 0.2);
+}
+
+/* Base Reset & Typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--ivory-bg);
+  color: var(--charcoal);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-maroon);
+}
+
+button, .btn-montserrat {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+/* Line Clamping Utilities */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ivory-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--royal-gold);
+  border-radius: 4px;
+}
+
+/* Custom Utility & Color Classes */
+.bg-ivory {
+  background-color: var(--ivory-bg) !important;
+}
+
+.bg-maroon {
+  background-color: var(--primary-maroon) !important;
+  color: #FFFDF8 !important;
+}
+
+.bg-maroon-subtle {
+  background-color: rgba(123, 17, 44, 0.08) !important;
+}
+
+.text-maroon {
+  color: var(--primary-maroon) !important;
+}
+
+.bg-gold {
+  background-color: var(--royal-gold) !important;
+}
+
+.text-gold {
+  color: var(--royal-gold) !important;
+}
+
+.border-gold {
+  border-color: var(--royal-gold) !important;
+}
+
+/* Custom Luxury Buttons */
+.btn-gold {
+  background: var(--gold-gradient);
+  color: #FFFDF8;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #AA820A 0%, #C8A54B 100%);
+  color: #FFFDF8;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(200, 165, 75, 0.35);
+}
+
+.btn-maroon {
+  background: var(--maroon-gradient);
+  color: #FFFDF8;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-maroon:hover {
+  background: linear-gradient(135deg, #580B1F 0%, #7B112C 100%);
+  color: #FFFDF8;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(123, 17, 44, 0.35);
+}
+
+.btn-outline-gold {
+  border: 1.5px solid var(--royal-gold);
+  color: var(--primary-maroon);
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+  background: var(--royal-gold);
+  color: #FFFDF8;
+  transform: translateY(-2px);
+}
+
+.btn-outline-maroon {
+  border: 1.5px solid var(--primary-maroon);
+  color: var(--primary-maroon);
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-maroon:hover {
+  background: var(--primary-maroon);
+  color: #FFFDF8;
+  transform: translateY(-2px);
+}
+
+/* Typography & Section Styling */
+.section-title-wrap {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.section-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  color: var(--royal-gold);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--primary-maroon);
+  margin-bottom: 0.5rem;
+}
+
+.gold-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 0.8rem;
+}
+
+.gold-divider::before,
+.gold-divider::after {
+  content: '';
+  height: 1px;
+  width: 60px;
+  background: var(--royal-gold);
+}
+
+.gold-diamond {
+  width: 8px;
+  height: 8px;
+  background: var(--royal-gold);
+  transform: rotate(45deg);
+}
+
+/* Luxury Card Hover Animations */
+.luxury-card {
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background: var(--ivory-card);
+  border: 1px solid var(--border-gold);
+}
+
+.luxury-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--royal-gold);
+}
+
+/* Sticky Navbar Transitions */
+.sticky-navbar {
+  transition: all 0.35s ease;
+  background-color: var(--ivory-bg);
+}
+
+.sticky-navbar.scrolled {
+  background-color: rgba(123, 17, 44, 0.96) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.sticky-navbar.scrolled .nav-link,
+.sticky-navbar.scrolled .font-serif {
+  color: #FFFDF8 !important;
+}
+
+.sticky-navbar.scrolled .nav-link:hover {
+  color: var(--royal-gold) !important;
+}
+
+/* Swiper Controls Customization */
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--royal-gold) !important;
+  background: rgba(255, 253, 248, 0.9);
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 50% !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15) !important;
+  border: 1px solid var(--royal-gold);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.2rem !important;
+  font-weight: bold;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--royal-gold) !important;
+  width: 24px !important;
+  border-radius: 10px !important;
+}
+
+/* Mobile UI Touch & Flawless Responsive Enhancements */
+@media (max-width: 768px) {
+  main {
+    padding-bottom: 75px !important;
+  }
+  .section-title {
+    font-size: 1.65rem !important;
+    line-height: 1.25;
+  }
+  .section-subtitle {
+    font-size: 0.72rem !important;
+    letter-spacing: 1.5px;
+  }
+  .btn, button {
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+  .btn:active, button:active {
+    transform: scale(0.96) !important;
+    transition: transform 0.12s ease;
+  }
+  .btn-sm {
+    min-height: 38px;
+    font-size: 0.78rem !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  input, select, textarea {
+    font-size: 16px !important; /* Prevents auto-zoom on iOS */
+  }
+  .product-card {
+    border-radius: 16px !important;
+  }
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .hero-section {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+  .hero-title {
+    font-size: 2.1rem !important;
+  }
+  .hero-badge {
+    font-size: 0.72rem !important;
+  }
+  .footer-section {
+    padding-bottom: 85px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-card .position-relative.overflow-hidden {
+    height: 220px !important;
+  }
+  .product-card .card-body {
+    padding: 0.75rem !important;
+  }
+  .product-card h5 {
+    font-size: 0.86rem !important;
+    margin-bottom: 4px !important;
+  }
+  .product-card p {
+    font-size: 0.75rem !important;
+    margin-bottom: 8px !important;
+  }
+  .product-card .fs-5 {
+    font-size: 1.05rem !important;
+  }
+  .product-card button {
+    height: 34px !important;
+    font-size: 0.72rem !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+}
+
+/* Smooth Touch Scrolling */
+html, body {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* ==============================================================================
+   🎠 SWIPER HERO NAVIGATION ARROWS - MOBILE RESPONSIVE OPTIMIZATION
+   ============================================================================== */
+.hero-swiper .swiper-button-next,
+.hero-swiper .swiper-button-prev {
+  width: 46px;
+  height: 46px;
+  background: rgba(88, 11, 31, 0.7);
+  border: 1.5px solid #C8A54B;
+  border-radius: 50%;
+  color: #FFFDF8;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-swiper .swiper-button-next::after,
+.hero-swiper .swiper-button-prev::after {
+  font-size: 16px;
+  font-weight: bold;
+  color: #C8A54B;
+}
+
+.hero-swiper .swiper-button-next:hover,
+.hero-swiper .swiper-button-prev:hover {
+  background: rgba(123, 17, 44, 0.95);
+  border-color: #FFFDF8;
+  transform: scale(1.08);
+}
+
+.hero-swiper .swiper-pagination-bullet {
+  background: #C8A54B;
+  opacity: 0.6;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  width: 28px;
+  border-radius: 10px;
+  background: #C8A54B;
+}
+
+/* Mobile & Small Screen Rules: Prevent Dominant Overlapping Arrows */
+@media (max-width: 768px) {
+  .hero-swiper .swiper-button-next,
+  .hero-swiper .swiper-button-prev {
+    width: 32px !important;
+    height: 32px !important;
+    background: rgba(88, 11, 31, 0.45) !important;
+    border: 1px solid rgba(200, 165, 75, 0.5) !important;
+    top: auto !important;
+    bottom: 18px !important;
+    transform: none !important;
+  }
+
+  .hero-swiper .swiper-button-prev {
+    left: auto !important;
+    right: 56px !important;
+  }
+
+  .hero-swiper .swiper-button-next {
+    right: 16px !important;
+  }
+
+  .hero-swiper .swiper-button-next::after,
+  .hero-swiper .swiper-button-prev::after {
+    font-size: 12px !important;
+    color: #F4E7C5 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  /* On mobile phones, hide the dominant side arrows completely to avoid text overlap. Users swipe naturally! */
+  .hero-swiper .swiper-button-next,
+  .hero-swiper .swiper-button-prev {
+    display: none !important;
+  }
+}

@@ -1,0 +1,66 @@
+# Dependency directories
+node_modules/
+/jspm_packages/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+target/
+bin/
+
+# Debug logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files - CRITICAL SENSITIVE DATA
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.env
+.secret
+credentials.properties
+jwt.secret
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editors
+.idea/
+.vscode/
+.metadata/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Compiled artifacts
+*.class
+
+# Spring Boot & Java specific
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# Local runtime artifacts
+test*.jpg
+test*.txt
+*.diff
+backend-tunnel.log

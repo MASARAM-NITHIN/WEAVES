@@ -1,0 +1,7 @@
+CREATE TABLE admins (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    role_id BIGINT NOT NULL,
+    admin_username VARCHAR(100) UNIQUE NOT NULL,
+    admin_password VARCHAR(255) NOT NULL,
+    CONSTRAINT fk_admins_roles FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE RESTRICT
+);

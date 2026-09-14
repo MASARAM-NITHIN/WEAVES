@@ -1,0 +1,8 @@
+ALTER TABLE admins DROP CONSTRAINT IF EXISTS admins_role_id_fkey;
+ALTER TABLE admins DROP CONSTRAINT IF EXISTS fk_admins_role;
+ALTER TABLE admins DROP COLUMN IF EXISTS role_id;
+
+ALTER TABLE customers DROP CONSTRAINT IF EXISTS fk_customers_roles;
+ALTER TABLE customers DROP COLUMN IF EXISTS role_id;
+
+DROP TABLE IF EXISTS roles;

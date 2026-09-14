@@ -1,0 +1,1 @@
+ALTER TABLE sarees ALTER COLUMN image_url TYPE TEXT;

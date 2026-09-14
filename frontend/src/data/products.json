@@ -1,0 +1,900 @@
+[
+  {
+    "id": "sps-101",
+    "name": "Kanchipuram Pure Zari Royal Crimson Bridal Silk Saree",
+    "category": "Kanchipuram Silk",
+    "fabric": "Pure Silk",
+    "price": 64999,
+    "originalPrice": 79999,
+    "rating": 4.9,
+    "reviewsCount": 42,
+    "colors": ["Crimson Red", "Gold"],
+    "colorHex": "#800020",
+    "occasion": "Bridal / Muhurtham",
+    "collection": "Bridal Collection",
+    "priceRange": "Above ₹50k",
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Heavy handwoven pure 3-ply Mulberry silk in deep crimson red with 24K gold zari grand peacock and elephant pallu.",
+    "description": "Woven by our legacy master weavers in Kanchipuram, this heirloom bridal silk saree radiates regal grandeur. Handcrafted with heavy pure silk yarn and authentic gold zari, it features detailed mayil (peacock) and yaali motifs along the contrast royal golden border.",
+    "washCare": "Dry Clean Only. Store wrapped in pure muslin cloth.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters (Included in contrast gold zari finish)",
+      "Zari Type": "Pure 24K Gold Tested Zari",
+      "Weave Type": "Traditional Handloom Korvai",
+      "Silk Mark": "Certified Pure Silk Mark"
+    }
+  },
+  {
+    "id": "sps-102",
+    "name": "Banarasi Royal Peacock Blue Kadwa Silk Brocade Saree",
+    "category": "Banarasi",
+    "fabric": "Pure Silk",
+    "price": 38500,
+    "originalPrice": 45000,
+    "rating": 4.8,
+    "reviewsCount": 29,
+    "colors": ["Peacock Blue", "Silver"],
+    "colorHex": "#005F73",
+    "occasion": "Wedding Reception",
+    "collection": "Wedding Silks",
+    "priceRange": "₹20k–₹50k",
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Exquisite Banarasi Katan silk brocade with royal Kadwa floral jaal in real silver-tested zari.",
+    "description": "A magnificent piece from Varanasi weavers featuring intricate silver zari floral meenakari work across a deep peacock blue background. Perfect for wedding receptions and evening galas.",
+    "washCare": "Dry Clean Only. Avoid direct sunlight during drying.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Zari Type": "Silver Tested Zari",
+      "Weave Type": "Kadwa Weave",
+      "Silk Mark": "Certified Pure Silk Mark"
+    }
+  },
+  {
+    "id": "sps-103",
+    "name": "Handpainted Pastel Lavender Organza Floral Silk Saree",
+    "category": "Organza",
+    "fabric": "Organza Silk",
+    "price": 12999,
+    "originalPrice": 16500,
+    "rating": 4.7,
+    "reviewsCount": 38,
+    "colors": ["Lavender", "Pink"],
+    "colorHex": "#E6E6FA",
+    "occasion": "Festive / Cocktail",
+    "collection": "Celebrity Picks",
+    "priceRange": "₹10k–₹20k",
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Ethereal translucent organza silk saree highlighted with hand-painted botanical blooms and silver scalloped border.",
+    "description": "Designed for modern fashion icons, this weightless organza silk saree sparkles with delicate hand-painted pastel roses, pearl highlights, and scalloped hand-cut zari edges.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters (Unstitched embellished silk)",
+      "Border": "Hand Embroidered Scallop",
+      "Transparency": "Semi-Sheer"
+    }
+  },
+  {
+    "id": "sps-104",
+    "name": "Chanderi Golden Tissue Silk Saree with Ashrafi Booti",
+    "category": "Chanderi",
+    "fabric": "Chanderi Silk",
+    "price": 8499,
+    "originalPrice": 11000,
+    "rating": 4.6,
+    "reviewsCount": 19,
+    "colors": ["Gold", "Ivory"],
+    "colorHex": "#D4AF37",
+    "occasion": "Festive / Puja",
+    "collection": "Festive Collection",
+    "priceRange": "₹5k–₹10k",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583391733975-d85c544e393b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Luminous Chanderi golden tissue weave woven with traditional coin (Ashrafi) booties and sleek maroon piping.",
+    "description": "Celebrate auspicious moments with the shimmering sheen of authentic Chanderi tissue silk. Adorned with delicate round coin motifs woven in pure gold thread.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Zari Type": "Golden Tested Zari",
+      "Origin": "Chanderi, Madhya Pradesh"
+    }
+  },
+  {
+    "id": "sps-105",
+    "name": "Dual-Tone Emerald Green & Magenta Soft Silk Saree",
+    "category": "Soft Silk",
+    "fabric": "Soft Silk",
+    "price": 7999,
+    "originalPrice": 9999,
+    "rating": 4.8,
+    "reviewsCount": 54,
+    "colors": ["Emerald Green", "Magenta"],
+    "colorHex": "#0F6A50",
+    "occasion": "Festive / Sangeet",
+    "collection": "Festive Collection",
+    "priceRange": "₹5k–₹10k",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Silky smooth drape in vibrant emerald green paired with a contrasting rich magenta brocade pallu.",
+    "description": "Soft on the skin yet rich in radiance, this soft silk saree features subtle check weaves and a contrasting magenta zari border tailored for comfortable long festive hours.",
+    "washCare": "Dry Clean or Mild Hand Wash.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Texture": "Ultra Soft & Lightweight"
+    }
+  },
+  {
+    "id": "sps-106",
+    "name": "Pure Handloom Bengal Cotton Temple Border Saree",
+    "category": "Cotton",
+    "fabric": "Pure Cotton",
+    "price": 3499,
+    "originalPrice": 4200,
+    "rating": 4.5,
+    "reviewsCount": 23,
+    "colors": ["Mustard Yellow", "Maroon"],
+    "colorHex": "#FFDB58",
+    "occasion": "Daily Wear / Office",
+    "collection": "Daily Wear",
+    "priceRange": "Under ₹5,000",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1583391733975-d85c544e393b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Breathable 100s count pure handloom cotton in warm mustard yellow with woven red temple borders.",
+    "description": "Ideal for warm tropical climate and professional workwear. Handcrafted with high-density cotton thread for all-day comfort and elegant drape.",
+    "washCare": "Gentle Hand Wash in cold water using mild liquid detergent.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Fabric Count": "100s Pure Cotton"
+    }
+  },
+  {
+    "id": "sps-107",
+    "name": "Hand-Block Printed Organic Linen Silk Saree",
+    "category": "Linen",
+    "fabric": "Linen Silk",
+    "price": 4899,
+    "originalPrice": 5999,
+    "rating": 4.6,
+    "reviewsCount": 17,
+    "colors": ["Indigo Blue", "White"],
+    "colorHex": "#4B0082",
+    "occasion": "Daily Wear / Casual",
+    "collection": "Daily Wear",
+    "priceRange": "Under ₹5,000",
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Sustainable natural organic linen silk saree hand-printed with royal Bagru motif patterns.",
+    "description": "Sophisticated simplicity meets eco-luxury. Premium organic linen blended with silk for a crisp, breathable fall.",
+    "washCare": "Dry Clean Recommended.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Craft": "Hand Block Print"
+    }
+  },
+  {
+    "id": "sps-108",
+    "name": "Gadwal Pure Silk Cotton Saree with Heavy Zari Border",
+    "category": "Gadwal",
+    "fabric": "Gadwal Silk",
+    "price": 18999,
+    "originalPrice": 22500,
+    "rating": 4.8,
+    "reviewsCount": 31,
+    "colors": ["Off-White", "Royal Red"],
+    "colorHex": "#FAF9F6",
+    "occasion": "Wedding / Puja",
+    "collection": "Temple Collection",
+    "priceRange": "₹10k–₹20k",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Authentic Gadwal handloom saree featuring fine cotton body intricately joined with pure silk zari border.",
+    "description": "Telangana's pride, woven with the unique Kuttu technique where the fine cotton body is intertwined seamlessly with pure silk pallu and golden temple borders.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Technique": "Interlocking Weave (Kuttu)"
+    }
+  },
+  {
+    "id": "sps-109",
+    "name": "Pochampally Handwoven Double Ikkat Silk Saree",
+    "category": "Pochampally",
+    "fabric": "Pure Silk",
+    "price": 24500,
+    "originalPrice": 28999,
+    "rating": 4.9,
+    "reviewsCount": 16,
+    "colors": ["Black", "Red", "White"],
+    "colorHex": "#1C1C1C",
+    "occasion": "Traditional / Festival",
+    "collection": "Temple Collection",
+    "priceRange": "₹20k–₹50k",
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Masterpiece double ikkat handloom silk saree with intricate geometric patterns tie-dyed before weaving.",
+    "description": "GI-tagged handloom treasure from Bhuvanagiri weavers. Each thread is calculated and tie-dyed prior to weaving to yield sharp, mesmerizing geometric shapes.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Certification": "Handloom Mark & Silk Mark"
+    }
+  },
+  {
+    "id": "sps-110",
+    "name": "Uppada Jamdani Featherlight Mulberry Silk Saree",
+    "category": "Uppada",
+    "fabric": "Pure Silk",
+    "price": 31999,
+    "originalPrice": 37500,
+    "rating": 4.9,
+    "reviewsCount": 27,
+    "colors": ["Coral Pink", "Gold"],
+    "colorHex": "#F88379",
+    "occasion": "Wedding Reception",
+    "collection": "Wedding Silks",
+    "priceRange": "₹20k–₹50k",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Ultra-lightweight Jamdani weave in warm coral pink with pure silver-gold zari floral vines.",
+    "description": "Famous for its whisper-light weight and non-reverse Jamdani tapestry weave. Takes master artisans over 30 days of delicate hand work.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Weight": "Under 400 grams"
+    }
+  },
+  {
+    "id": "sps-111",
+    "name": "Mysore Pure Silk Crepe Zari Border Saree",
+    "category": "Mysore Silk",
+    "fabric": "Pure Silk",
+    "price": 19500,
+    "originalPrice": 22000,
+    "rating": 4.8,
+    "reviewsCount": 44,
+    "colors": ["Maroon", "Gold"],
+    "colorHex": "#7B112C",
+    "occasion": "Traditional / Festive",
+    "collection": "Festive Collection",
+    "priceRange": "₹10k–₹20k",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Classic Karnataka Mysore crepe silk saree with 100% pure gold zari border and rich lustre finish.",
+    "description": "Crafted from pure mulberry silk yarns, known for its smooth texture, rich maroon hue, and authentic 0.65% pure gold zari line border.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Zari Gold %": "0.65% Pure Gold Zari"
+    }
+  },
+  {
+    "id": "sps-112",
+    "name": "Kanchipuram Golden Yellow Muhurtham Silk Saree",
+    "category": "Bridal",
+    "fabric": "Pure Silk",
+    "price": 82000,
+    "originalPrice": 95000,
+    "rating": 5.0,
+    "reviewsCount": 18,
+    "colors": ["Golden Yellow", "Crimson Border"],
+    "colorHex": "#FFD700",
+    "occasion": "Bridal / Muhurtham",
+    "collection": "Bridal Collection",
+    "priceRange": "Above ₹50k",
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Heirloom grade auspicious golden yellow Kanchipuram silk with heavy 3D gold brocade and crimson border.",
+    "description": "The ultimate wedding statement. Represents divine blessings and royal prosperity woven with pure 3-ply heavy silk yarn and 24K real gold zari.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Weight": "950 grams",
+      "Silk Mark": "Certified 100% Pure Silk"
+    }
+  },
+  {
+    "id": "sps-113",
+    "name": "Banarasi Mint Green Meenakari Silk Brocade Saree",
+    "category": "Banarasi",
+    "fabric": "Pure Silk",
+    "price": 27999,
+    "originalPrice": 32999,
+    "rating": 4.7,
+    "reviewsCount": 21,
+    "colors": ["Mint Green", "Gold"],
+    "colorHex": "#98FF98",
+    "occasion": "Sangeet / Reception",
+    "collection": "Celebrity Picks",
+    "priceRange": "₹20k–₹50k",
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Fresh pastel mint green Banarasi silk adorned with colorful Meenakari floral booti weaving.",
+    "description": "Modern pastel elegance woven with traditional Varanasi heritage. Features subtle pink and golden Meenakari threadwork.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Weave": "Meenakari Brocade"
+    }
+  },
+  {
+    "id": "sps-114",
+    "name": "Chanderi Sheer Powder Blue Tissue Silk Saree",
+    "category": "Chanderi",
+    "fabric": "Chanderi Silk",
+    "price": 9999,
+    "originalPrice": 12500,
+    "rating": 4.6,
+    "reviewsCount": 15,
+    "colors": ["Powder Blue", "Silver"],
+    "colorHex": "#B0E0E6",
+    "occasion": "Day Wedding / Reception",
+    "collection": "Festive Collection",
+    "priceRange": "₹5k–₹10k",
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Delicate powder blue tissue silk saree woven with silver zari chevron patterns.",
+    "description": "Lustrous metallic sheen with soft pastel tones, perfect for sunlit festive daytime occasions.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Weight": "350 grams"
+    }
+  },
+  {
+    "id": "sps-115",
+    "name": "Kanchipuram Dual Tone Copper Silk Saree",
+    "category": "Kanchipuram Silk",
+    "fabric": "Pure Silk",
+    "price": 42500,
+    "originalPrice": 49999,
+    "rating": 4.9,
+    "reviewsCount": 33,
+    "colors": ["Copper", "Magenta"],
+    "colorHex": "#B87333",
+    "occasion": "Wedding / Reception",
+    "collection": "Wedding Silks",
+    "priceRange": "₹20k–₹50k",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Trendsetting metallic copper shot silk in Kanchipuram weave with a magenta zari border.",
+    "description": "Captivating dual-tone shimmer that changes shade with movement. Handwoven with pure silk warp and weft.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Zari": "Gold & Copper Tested"
+    }
+  },
+  {
+    "id": "sps-116",
+    "name": "Royal Wine Red Mysore Silk Saree with Zari Motifs",
+    "category": "Mysore Silk",
+    "fabric": "Pure Silk",
+    "price": 16999,
+    "originalPrice": 19500,
+    "rating": 4.8,
+    "reviewsCount": 26,
+    "colors": ["Wine Red", "Gold"],
+    "colorHex": "#722F37",
+    "occasion": "Puja / Family Gathering",
+    "collection": "Temple Collection",
+    "priceRange": "₹10k–₹20k",
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Graceful deep wine shade on pure Mysore crepe silk with fine gold mango motif border.",
+    "description": "Represents classic South Indian elegance with lightweight body and rich fluid drape.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Origin": "Mysore, Karnataka"
+    }
+  },
+  {
+    "id": "sps-117",
+    "name": "Pure Mulmul Cotton Pastel Rose Handblock Saree",
+    "category": "Cotton",
+    "fabric": "Pure Cotton",
+    "price": 2899,
+    "originalPrice": 3600,
+    "rating": 4.4,
+    "reviewsCount": 14,
+    "colors": ["Pastel Pink", "White"],
+    "colorHex": "#FFC0CB",
+    "occasion": "Daily Wear / Summer",
+    "collection": "Daily Wear",
+    "priceRange": "Under ₹5,000",
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1583391733975-d85c544e393b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Super soft 100% fine mulmul cotton with hand-printed floral motifs and tassel pallu.",
+    "description": "Ultra comfortable lightweight cotton saree ideal for hot weather and everyday grace.",
+    "washCare": "Hand wash separately in cold water.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Fabric": "100% Malmal Cotton"
+    }
+  },
+  {
+    "id": "sps-118",
+    "name": "Handloom Chettinad Cotton Saree with Contrast Pallu",
+    "category": "Cotton",
+    "fabric": "Pure Cotton",
+    "price": 3200,
+    "originalPrice": 3900,
+    "rating": 4.5,
+    "reviewsCount": 20,
+    "colors": ["Yellow", "Green"],
+    "colorHex": "#FED85D",
+    "occasion": "Daily Wear",
+    "collection": "Daily Wear",
+    "priceRange": "Under ₹5,000",
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1583391733975-d85c544e393b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Traditional Chettinad weave with bold stripes and thick border for rustic charm.",
+    "description": "Authentic Tamil Nadu weaving heritage using sturdy cotton yarns for crisp pleats.",
+    "washCare": "Hand wash.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "Included"
+    }
+  },
+  {
+    "id": "sps-119",
+    "name": "Royal Purple Kanchipuram Brocade Silk Saree",
+    "category": "Kanchipuram Silk",
+    "fabric": "Pure Silk",
+    "price": 58000,
+    "originalPrice": 67000,
+    "rating": 4.9,
+    "reviewsCount": 35,
+    "colors": ["Royal Purple", "Gold Zari"],
+    "colorHex": "#7851A9",
+    "occasion": "Wedding / Reception",
+    "collection": "Bridal Collection",
+    "priceRange": "Above ₹50k",
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Regal deep purple Kanchipuram silk laden with intricate golden zari floral vines across body.",
+    "description": "A magnificent statement piece created for grand occasions and luxury trousseau collection.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Zari": "Pure Gold Tested"
+    }
+  },
+  {
+    "id": "sps-120",
+    "name": "Tissue Organza Designer Saree with Mirror Work",
+    "category": "Organza",
+    "fabric": "Organza Silk",
+    "price": 14500,
+    "originalPrice": 18000,
+    "rating": 4.7,
+    "reviewsCount": 24,
+    "colors": ["Rose Gold", "Silver"],
+    "colorHex": "#B76E79",
+    "occasion": "Cocktail / Party",
+    "collection": "Celebrity Picks",
+    "priceRange": "₹10k–₹20k",
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Sparkling rose gold tissue organza saree detailed with hand-embroidered mirror work borders.",
+    "description": "Catch every light at evening celebrations with mirror accents on shimmering tissue organza.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters (Designer Embellished)"
+    }
+  },
+  {
+    "id": "sps-121",
+    "name": "Banarasi Tanchoi Silk Saree with Floral Paisleys",
+    "category": "Banarasi",
+    "fabric": "Pure Silk",
+    "price": 22499,
+    "originalPrice": 26000,
+    "rating": 4.8,
+    "reviewsCount": 19,
+    "colors": ["Maroon", "Gold"],
+    "colorHex": "#800000",
+    "occasion": "Festive / Wedding",
+    "collection": "Wedding Silks",
+    "priceRange": "₹20k–₹50k",
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Rich Tanchoi weave technique resulting in a satin-like soft texture and raised paisley motifs.",
+    "description": "Varanasi art form where extra warp threads create raised tapestry-like floral designs.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters"
+    }
+  },
+  {
+    "id": "sps-122",
+    "name": "Lightweight Printed Soft Silk Saree with Zari Piping",
+    "category": "Soft Silk",
+    "fabric": "Soft Silk",
+    "price": 6499,
+    "originalPrice": 7999,
+    "rating": 4.6,
+    "reviewsCount": 28,
+    "colors": ["Teal Blue", "Gold"],
+    "colorHex": "#008080",
+    "occasion": "Festive / Workwear",
+    "collection": "Daily Wear",
+    "priceRange": "₹5k–₹10k",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Teal blue soft silk saree featuring geometric printed body and smooth zari border.",
+    "description": "Crease-resistant soft silk saree designed for women who seek comfort without compromising on style.",
+    "washCare": "Dry Clean or gentle hand wash.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters"
+    }
+  },
+  {
+    "id": "sps-123",
+    "name": "Kanchipuram Temple Gopuram Border Pure Silk Saree",
+    "category": "Kanchipuram Silk",
+    "fabric": "Pure Silk",
+    "price": 34999,
+    "originalPrice": 41000,
+    "rating": 4.9,
+    "reviewsCount": 37,
+    "colors": ["Deep Yellow", "Green"],
+    "colorHex": "#FFC500",
+    "occasion": "Temple / Festival",
+    "collection": "Temple Collection",
+    "priceRange": "₹20k–₹50k",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Traditional South Indian yellow pure silk with heavy green temple gopuram zari border.",
+    "description": "Symbolizes sacred tradition and divine blessings with hand-woven temple motifs.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters"
+    }
+  },
+  {
+    "id": "sps-124",
+    "name": "Classic Off-White & Red Bengali Garad Silk Saree",
+    "category": "Bridal",
+    "fabric": "Pure Silk",
+    "price": 17500,
+    "originalPrice": 21000,
+    "rating": 4.8,
+    "reviewsCount": 22,
+    "colors": ["Off-White", "Red"],
+    "colorHex": "#FFFDF0",
+    "occasion": "Puja / Festive",
+    "collection": "Temple Collection",
+    "priceRange": "₹10k–₹20k",
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Iconic undyed raw silk off-white body with rich crimson red paisley zari border.",
+    "description": "Sacred and pure for Durga Puja and auspicious rituals across India.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "Included"
+    }
+  },
+  {
+    "id": "sps-125",
+    "name": "Pochampally Silk Ikkat Saree in Sunset Orange & Magenta",
+    "category": "Pochampally",
+    "fabric": "Pure Silk",
+    "price": 19999,
+    "originalPrice": 24000,
+    "rating": 4.7,
+    "reviewsCount": 18,
+    "colors": ["Orange", "Magenta"],
+    "colorHex": "#FF5F1F",
+    "occasion": "Festive / Celebration",
+    "collection": "Festive Collection",
+    "priceRange": "₹10k–₹20k",
+    "isNew": true,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Vibrant sunset hues in authentic double ikkat weave with contrast silk border.",
+    "description": "Dynamic geometric diamond patterns crafted by master weavers in Telangana.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters"
+    }
+  },
+  {
+    "id": "sps-126",
+    "name": "Pure Handwoven Uppada Silk Jamdani in Royal Blue",
+    "category": "Uppada",
+    "fabric": "Pure Silk",
+    "price": 28500,
+    "originalPrice": 33000,
+    "rating": 4.8,
+    "reviewsCount": 25,
+    "colors": ["Royal Blue", "Silver"],
+    "colorHex": "#4169E1",
+    "occasion": "Wedding Reception",
+    "collection": "Wedding Silks",
+    "priceRange": "₹20k–₹50k",
+    "isNew": false,
+    "isBestSeller": true,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Featherweight royal blue Uppada silk with silver zari bird and floral Jamdani motifs.",
+    "description": "Ultra fine weave that effortlessly glides around the silhouette with royal elegance.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters"
+    }
+  },
+  {
+    "id": "sps-127",
+    "name": "Pure Mulberry Mysore Silk Plain Saree with Thin Gold Line",
+    "category": "Mysore Silk",
+    "fabric": "Pure Silk",
+    "price": 14999,
+    "originalPrice": 17500,
+    "rating": 4.7,
+    "reviewsCount": 30,
+    "colors": ["Pastel Green", "Gold"],
+    "colorHex": "#77DD77",
+    "occasion": "Festive / Elegant Workwear",
+    "collection": "Daily Wear",
+    "priceRange": "₹10k–₹20k",
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Subtle pastel green pure crepe silk saree with minimalist authentic gold zari border.",
+    "description": "Refined minimal luxury for women who adore understated elegance.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters"
+    }
+  },
+  {
+    "id": "sps-128",
+    "name": "Chanderi Cotton Silk Saree with Copper Zari Weave",
+    "category": "Chanderi",
+    "fabric": "Chanderi Silk",
+    "price": 5499,
+    "originalPrice": 6800,
+    "rating": 4.5,
+    "reviewsCount": 16,
+    "colors": ["Rust Orange", "Copper"],
+    "colorHex": "#C85A17",
+    "occasion": "Casual Festive",
+    "collection": "Festive Collection",
+    "priceRange": "₹5k–₹10k",
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583391733975-d85c544e393b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Earthy rust orange Chanderi tissue with glowing copper zari floral vines.",
+    "description": "Combines cotton breathability with the sheen of silk threads.",
+    "washCare": "Dry Clean Only.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "Included"
+    }
+  },
+  {
+    "id": "sps-129",
+    "name": "Royal Red Grand Kanchipuram Brocade Bridal Silk Saree",
+    "category": "Bridal",
+    "fabric": "Pure Silk",
+    "price": 98000,
+    "originalPrice": 115000,
+    "rating": 5.0,
+    "reviewsCount": 50,
+    "colors": ["Royal Red", "Pure Gold"],
+    "colorHex": "#CC0000",
+    "occasion": "Bridal / Muhurtham",
+    "collection": "Bridal Collection",
+    "priceRange": "Above ₹50k",
+    "isNew": true,
+    "isBestSeller": true,
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Master craftsmanship 3-ply heavy pure silk bridal saree with full 24K real gold brocade pallu.",
+    "description": "The crown jewel of our bridal studio. Woven over 65 days by senior master artisans.",
+    "washCare": "Dry Clean Only. Preserve in muslin box.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "0.8 meters",
+      "Zari": "24K Tested Pure Gold Zari",
+      "Silk Mark": "Certified 100% Pure Silk"
+    }
+  },
+  {
+    "id": "sps-130",
+    "name": "Handloom Linen Silk Saree with Geometric Metallic Border",
+    "category": "Linen",
+    "fabric": "Linen Silk",
+    "price": 4200,
+    "originalPrice": 5200,
+    "rating": 4.4,
+    "reviewsCount": 12,
+    "colors": ["Charcoal Grey", "Silver"],
+    "colorHex": "#36454F",
+    "occasion": "Daily Wear / Corporate",
+    "collection": "Daily Wear",
+    "priceRange": "Under ₹5,000",
+    "isNew": false,
+    "isBestSeller": false,
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1583391733975-d85c544e393b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "shortDescription": "Modern charcoal grey linen silk saree with subtle metallic thread borders.",
+    "description": "Clean minimalist aesthetic for corporate presentations and casual events.",
+    "washCare": "Dry Clean Recommended.",
+    "specifications": {
+      "Saree Length": "5.5 meters",
+      "Blouse Piece": "Included"
+    }
+  }
+]

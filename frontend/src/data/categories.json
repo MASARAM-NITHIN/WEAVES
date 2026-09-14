@@ -1,0 +1,98 @@
+[
+  {
+    "id": "kanchipuram",
+    "name": "Kanchipuram Silk",
+    "itemCount": "180+ Sarees",
+    "description": "Handwoven pure silk sarees from South India featuring heavy pure zari borders and intricate temple motifs.",
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+    "tag": "Traditional Luxury"
+  },
+  {
+    "id": "banarasi",
+    "name": "Banarasi Silk",
+    "itemCount": "140+ Sarees",
+    "description": "Opulent brocades crafted in Varanasi with fine silk, gold & silver zari work, perfect for royal weddings.",
+    "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+    "tag": "Royal Heritage"
+  },
+  {
+    "id": "organza",
+    "name": "Organza Silk",
+    "itemCount": "95+ Sarees",
+    "description": "Sheer, lightweight, and modern silk sarees with floral digital prints and handcrafted thread embroidery.",
+    "image": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+    "tag": "Contemporary Chic"
+  },
+  {
+    "id": "chanderi",
+    "name": "Chanderi Silk",
+    "itemCount": "110+ Sarees",
+    "description": "Lightweight tissue sarees woven with silk and gold zari featuring traditional coin and floral booties.",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+    "tag": "Featherlight Elegance"
+  },
+  {
+    "id": "soft-silk",
+    "name": "Soft Silk",
+    "itemCount": "160+ Sarees",
+    "description": "Silky-smooth texture with lightweight zari borders designed for comfortable all-day festive wear.",
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+    "tag": "Graceful Comfort"
+  },
+  {
+    "id": "cotton",
+    "name": "Handloom Cotton",
+    "itemCount": "130+ Sarees",
+    "description": "Breathable pure handloom cotton sarees with vibrant temple borders and geometric pallus.",
+    "image": "https://images.unsplash.com/photo-1583391733975-d85c544e393b?auto=format&fit=crop&w=800&q=80",
+    "tag": "Everyday Elegance"
+  },
+  {
+    "id": "linen",
+    "name": "Linen Silk",
+    "itemCount": "85+ Sarees",
+    "description": "Eco-friendly, breathable linen sarees blended with silk and embellished with hand block prints.",
+    "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+    "tag": "Sophisticated Minimal"
+  },
+  {
+    "id": "gadwal",
+    "name": "Gadwal Silk",
+    "itemCount": "75+ Sarees",
+    "description": "Telangana handloom heritage featuring cotton body with pure silk and heavy zari borders.",
+    "image": "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=800&q=80",
+    "tag": "Authentic Craft"
+  },
+  {
+    "id": "pochampally",
+    "name": "Pochampally Ikkat",
+    "itemCount": "90+ Sarees",
+    "description": "Traditional double ikkat handwoven sarees featuring bold geometric tie-and-dye patterns.",
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+    "tag": "Heritage Weave"
+  },
+  {
+    "id": "uppada",
+    "name": "Uppada Jamdani",
+    "itemCount": "65+ Sarees",
+    "description": "Ultra-fine handwoven silk sarees created using ancient Jamdani weaving techniques.",
+    "image": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80",
+    "tag": "Rare Artistry"
+  },
+  {
+    "id": "mysore-silk",
+    "name": "Mysore Silk",
+    "itemCount": "105+ Sarees",
+    "description": "Pure Mulberry silk sarees with genuine silver-gold zari borders, soft feel, and radiant luster.",
+    "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+    "tag": "Royal Karnataka"
+  },
+  {
+    "id": "bridal",
+    "name": "Bridal Sarees",
+    "itemCount": "120+ Sarees",
+    "description": "Heavy weight grand bridal silks woven with pure 3-ply silk yarn and gold brocade pallus.",
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+    "tag": "Grand Celebrations"
+  }
+]

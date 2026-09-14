@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+/jspm_packages/
+
+# Next.js Build Output
+.next/
+out/
+
+# Production build output
+dist/
+build/
+
+# Debug logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local runtime uploads (source of truth is object storage)
+public/uploads/*
+!public/uploads/.keep
+
+# Misc local artifacts
+*.diff
+test-upload.js
+test.txt
+
+# Local environment variables - CRITICAL SENSITIVE DATA
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+*.env
+
+# Diagnostic caches
+.eslintcache
+.stylelintcache
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

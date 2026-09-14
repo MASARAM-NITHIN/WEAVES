@@ -1,0 +1,20 @@
+CREATE TABLE orders (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    order_code VARCHAR(100) UNIQUE NOT NULL,
+    customer_id BIGINT,
+    customer_name VARCHAR(255) NOT NULL,
+    customer_phone VARCHAR(50) NOT NULL,
+    shipping_address TEXT NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    state VARCHAR(100) NOT NULL,
+    pincode VARCHAR(20) NOT NULL,
+    order_total DECIMAL(10, 2) NOT NULL,
+    upi_id VARCHAR(100),
+    utr_number VARCHAR(100),
+    verification_status VARCHAR(50) DEFAULT 'PENDING',
+    order_status VARCHAR(50) DEFAULT 'PENDING',
+    ordered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_orders_customer FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE SET NULL,
+    CONSTRAINT chk_verification_status CHECK (verification_status IN ('PENDING', 'VERIFIED', 'FAILED')),
+    CONSTRAINT chk_order_status CHECK (order_status IN ('PENDING', 'CONFIRMED', 'SHIPPED', 'DELIVERED', 'CANCELLED'))
+);
