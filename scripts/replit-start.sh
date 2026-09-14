@@ -57,6 +57,9 @@ export BACKEND_INTERNAL_URL="${BACKEND_INTERNAL_URL:-http://localhost:${BACKEND_
 
 # ---------- Backend ----------
 cd "$ROOT/backend/saree-backend"
+# Pre-flight: kill any orphan backend from a previous run holding the port.
+pkill -f 'saree-backend.*\.jar' 2>/dev/null || true
+sleep 2
 JAR="$(ls -t target/*.jar 2>/dev/null | grep -v -e sources -e javadoc | head -n 1 || true)"
 if [ -z "${JAR:-}" ]; then
   echo "==> [backend] No jar found, building..."
@@ -69,7 +72,7 @@ BACKEND_PID=$!
 
 # ---------- Frontend ----------
 cd "$ROOT/frontend"
-if [ ! -d "node_modules" ]; then
+if [ ! -f "node_modules/.package-lock.json" ]; then
   echo "==> [frontend] Installing dependencies"
   npm ci
 fi
