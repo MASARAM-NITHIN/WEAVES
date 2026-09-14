@@ -124,7 +124,7 @@ To change the schema, add a new numbered migration (e.g. `V21__description.sql`)
 
 Architecture: **one public port**. Next.js serves the storefront on `:3000`
 (mapped to external `80`) and proxies `/api/*` and `/uploads/*` to Spring Boot
-on internal `:8080` (see `rewrites` in `frontend/next.config.mjs`). The browser
+on internal `:8081` on Replit (Replit reserves `:8080` for itself; see `BACKEND_PORT` in `scripts/replit-start.sh`). The browser
 never talks to the backend directly, so no CORS or absolute-URL configuration
 is needed — `NEXT_PUBLIC_API_BASE_URL=/api` works on any host.
 

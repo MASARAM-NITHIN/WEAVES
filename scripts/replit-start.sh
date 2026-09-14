@@ -51,7 +51,10 @@ if [ -z "${JWT_SECRET:-}" ]; then
 fi
 
 # ---------- Ports ----------
-export BACKEND_PORT="${BACKEND_PORT:-8080}"
+# NOTE: Replit reserves :8080 for its own infrastructure (bind test = EADDRINUSE
+# with no Java running), so the backend lives on :8081 here. Local dev still
+# uses :8080 via application.yml default / Makefile.
+export BACKEND_PORT="${BACKEND_PORT:-8081}"
 export PORT="${PORT:-3000}"  # public port: Replit maps external 80 -> this
 export BACKEND_INTERNAL_URL="${BACKEND_INTERNAL_URL:-http://localhost:${BACKEND_PORT}}"
 
