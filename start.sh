@@ -9,22 +9,21 @@ pkill -f "node" || true
 pkill -f "next" || true
 
 # --- MEMORY OPTIMIZATION ---
-echo "⚛️ Step 1: Building Next.js Frontend (This takes 1-2 minutes)..."
+echo "⚛️ Step 1: Building Next.js Frontend..."
 cd frontend
 export NEXT_PUBLIC_API_BASE_URL="http://localhost:8080/api"
-# Delete node_modules completely to remove Next 16 and lockfile to bypass the firewall
-rm -rf node_modules package-lock.json .next
-npm install --legacy-peer-deps
+if [ ! -d "node_modules" ]; then
+  npm install --legacy-peer-deps
+fi
 npm run build
 cd ..
 
-echo "☕ Step 2: Building Java Backend (This takes 1-2 minutes)..."
+echo "☕ Step 2: Building Java Backend..."
 cd backend/saree-backend
 mvn clean install -DskipTests
 cd ../..
 
-echo "🚀 Step 3: Starting both servers..."
-# Use Replit's explicit PG variables instead of parsing DATABASE_URL
+echo "🚀 Step 3: Starting both servers on correct separate ports..."
 if [ -n "$PGHOST" ]; then
   export DB_URL="jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}"
 else
@@ -32,15 +31,19 @@ else
 fi
 export DB_USERNAME=${PGUSER:-"postgres"}
 export DB_PASSWORD=${PGPASSWORD:-"postgres"}
-export PORT=8080
 
-# Start Backend
+# Start Backend on Port 8080
 cd backend/saree-backend
+export SERVER_PORT=8080
 mvn spring-boot:run &
 BACKEND_PID=$!
 
-# Start Frontend
+# Wait a few seconds to let Backend start before frontend
+sleep 5
+
+# Start Frontend on Port 3000
 cd ../../frontend
+export PORT=3000
 npm start &
 FRONTEND_PID=$!
 
