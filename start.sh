@@ -18,9 +18,10 @@ mvn clean install -DskipTests
 cd ../..
 
 echo "🚀 Step 3: Starting both servers..."
-# Convert Replit's DATABASE_URL (postgres://...) to Spring Boot JDBC format
+# Convert Replit's DATABASE_URL to Spring Boot JDBC format safely
 if [ -n "$DATABASE_URL" ]; then
-  JDBC_URL=$(echo $DATABASE_URL | sed 's/postgres:\/\//jdbc:postgresql:\/\//')
+  # Replace both postgres:// and postgresql:// with jdbc:postgresql://
+  JDBC_URL=$(echo $DATABASE_URL | sed -e 's/^postgresql:\/\//jdbc:postgresql:\/\//' -e 's/^postgres:\/\//jdbc:postgresql:\/\//')
   export DB_URL=$JDBC_URL
 else
   export DB_URL="jdbc:postgresql://localhost:5432/saree_db"
