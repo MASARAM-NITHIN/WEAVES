@@ -1,19 +1,4 @@
-run = "bash scripts/replit-start.sh"
-
-hidden = [".config", "node_modules", "target", ".next", ".git"]
+run = "bash start.sh"
 
 [nix]
-channel = "stable-24_05"
-
-[gitHubImport]
-requiredFiles = [".replit", "replit.nix"]
-
-[deployment]
-build = ["bash", "scripts/replit-build.sh"]
-run = ["bash", "scripts/replit-start.sh"]
-deploymentTarget = "cloudrun"
-
-# Single public port: Next.js (proxies /api and /uploads to Spring Boot).
-[[ports]]
-localPort = 3000
-externalPort = 80
+channel = "stable-23_05"
