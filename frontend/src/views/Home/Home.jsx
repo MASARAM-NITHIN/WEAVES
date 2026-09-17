@@ -144,7 +144,7 @@ const Home = () => {
                 BRIDAL SEASON SPECIAL
               </span>
               <h2 className="font-serif display-5 fw-bold text-white mb-3">
-                Royal Kanchipuram & Banarasi Silk Heritage
+                Exclusive Royal Handloom Silk Heritage
               </h2>
               <p className="font-poppins text-white opacity-90 mb-4" style={{ fontSize: '0.98rem', maxWidth: '560px' }}>
                 Enjoy exclusive discounts up to 40% OFF on certified 100% pure silk mark handwoven sarees directly from our artisan master weavers in Hindupur.
