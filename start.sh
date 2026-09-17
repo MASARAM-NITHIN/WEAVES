@@ -14,7 +14,7 @@ cd frontend
 export NEXT_PUBLIC_API_BASE_URL="http://localhost:8080/api"
 # Delete node_modules completely to remove Next 16 and lockfile to bypass the firewall
 rm -rf node_modules package-lock.json .next
-npm install
+npm install --legacy-peer-deps
 npm run build
 cd ..
 
