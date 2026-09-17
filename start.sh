@@ -2,12 +2,18 @@
 
 echo "🚀 Starting Sree Padmavathi Silks on Replit..."
 
+# --- CLEANUP ---
+echo "🧹 Cleaning up old processes and caches..."
+pkill -f "java" || true
+pkill -f "node" || true
+pkill -f "next" || true
+
 # --- MEMORY OPTIMIZATION ---
 echo "⚛️ Step 1: Building Next.js Frontend (This takes 1-2 minutes)..."
 cd frontend
 export NEXT_PUBLIC_API_BASE_URL="http://localhost:8080/api"
-# Delete lockfile so npm respects the "latest" version and ignores the blocked one
-rm -f package-lock.json
+# Delete node_modules completely to remove Next 16 and lockfile to bypass the firewall
+rm -rf node_modules package-lock.json .next
 npm install
 npm run build
 cd ..
