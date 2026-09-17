@@ -3,11 +3,11 @@
 echo "🚀 Starting Sree Padmavathi Silks on Replit..."
 
 # --- MEMORY OPTIMIZATION ---
-# Replit has strict memory limits. We must build sequentially to avoid crashing.
-
 echo "⚛️ Step 1: Building Next.js Frontend (This takes 1-2 minutes)..."
 cd frontend
 export NEXT_PUBLIC_API_BASE_URL="http://localhost:8080/api"
+# Delete lockfile so npm respects the "latest" version and ignores the blocked one
+rm -f package-lock.json
 npm install
 npm run build
 cd ..
@@ -18,11 +18,9 @@ mvn clean install -DskipTests
 cd ../..
 
 echo "🚀 Step 3: Starting both servers..."
-# Convert Replit's DATABASE_URL to Spring Boot JDBC format safely
-if [ -n "$DATABASE_URL" ]; then
-  # Replace both postgres:// and postgresql:// with jdbc:postgresql://
-  JDBC_URL=$(echo $DATABASE_URL | sed -e 's/^postgresql:\/\//jdbc:postgresql:\/\//' -e 's/^postgres:\/\//jdbc:postgresql:\/\//')
-  export DB_URL=$JDBC_URL
+# Use Replit's explicit PG variables instead of parsing DATABASE_URL
+if [ -n "$PGHOST" ]; then
+  export DB_URL="jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}"
 else
   export DB_URL="jdbc:postgresql://localhost:5432/saree_db"
 fi
