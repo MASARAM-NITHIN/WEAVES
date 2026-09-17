@@ -11,7 +11,7 @@ pkill -f "next" || true
 # --- MEMORY OPTIMIZATION ---
 echo "⚛️ Step 1: Building Next.js Frontend..."
 cd frontend
-export NEXT_PUBLIC_API_BASE_URL="http://localhost:8080/api"
+export NEXT_PUBLIC_API_BASE_URL="/api"
 if [ ! -d "node_modules" ]; then
   npm install --legacy-peer-deps
 fi
