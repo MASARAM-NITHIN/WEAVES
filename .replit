@@ -1,4 +1,1 @@
 run = "bash start.sh"
-
-[nix]
-channel = "stable-23_05"
