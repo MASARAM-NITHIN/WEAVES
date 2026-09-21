@@ -28,6 +28,8 @@ public class AdminDataSeeder implements CommandLineRunner {
     @Override
     @Transactional
     public void run(String... args) throws Exception {
+        // Only seed the initial admin account if NO admin exists in the system.
+        // Once the admin exists, the system will NOT forcefully override passwords.
         if (adminRepository.findByAdminUsername(defaultUsername).isEmpty()) {
             Admin admin = Admin.builder()
                     .adminUsername(defaultUsername)
@@ -38,16 +40,6 @@ public class AdminDataSeeder implements CommandLineRunner {
 
             adminRepository.save(admin);
             System.out.println("Default admin user created with username: " + defaultUsername);
-        } else {
-            // Force reset the password to padmavathi123 to ensure the user can log in
-            // and unlock the account if it was locked.
-            Admin existingAdmin = adminRepository.findByAdminUsername(defaultUsername).get();
-            existingAdmin.setAdminPassword(passwordEncoder.encode(defaultPassword));
-            existingAdmin.setFailedLoginAttempts(0);
-            existingAdmin.setLockoutUntil(null);
-            existingAdmin.setIsActive(true);
-            adminRepository.save(existingAdmin);
-            System.out.println("Force reset admin user password and unlocked account.");
         }
     }
 }
