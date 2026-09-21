@@ -9,14 +9,6 @@ pkill -f "node" || true
 pkill -f "next" || true
 pkill -f "localtunnel" || true
 
-# Source backend env vars safely
-if [ -f "backend/saree-backend/.env" ]; then
-  echo "📥 Loading backend environment variables..."
-  set -a
-  source backend/saree-backend/.env
-  set +a
-fi
-
 # --- MEMORY OPTIMIZATION ---
 echo "⚛️ Step 1: Building Next.js Frontend..."
 cd frontend
@@ -33,11 +25,18 @@ mvn clean install -DskipTests
 cd ../..
 
 echo "🚀 Step 3: Starting both servers on correct separate ports..."
+
+# Map Replit Database Variables to Spring Boot Variables
 if [ -n "$PGHOST" ]; then
   export DB_URL="jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}"
 fi
 export DB_USERNAME=${PGUSER:-"postgres"}
 export DB_PASSWORD=${PGPASSWORD:-"postgres"}
+
+# Ensure dummy credential variables are present so the seeder can unlock the account!
+# It will use Replit Secrets if you set them, otherwise it defaults to these:
+export ADMIN_USERNAME=${ADMIN_USERNAME:-"owner"}
+export ADMIN_PASSWORD=${ADMIN_PASSWORD:-"padmavathi123"}
 
 # Start Backend on Port 8080
 cd backend/saree-backend
@@ -45,8 +44,8 @@ export SERVER_PORT=8080
 mvn spring-boot:run &
 BACKEND_PID=$!
 
-# Wait 10 seconds to let Backend start compiling/booting
-sleep 10
+# Wait 15 seconds to let Backend start compiling/booting
+sleep 15
 
 # Start Frontend on Port 3000
 cd ../../frontend
