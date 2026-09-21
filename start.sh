@@ -9,6 +9,14 @@ pkill -f "node" || true
 pkill -f "next" || true
 pkill -f "localtunnel" || true
 
+# Source backend env vars safely
+if [ -f "backend/saree-backend/.env" ]; then
+  echo "📥 Loading backend environment variables..."
+  set -a
+  source backend/saree-backend/.env
+  set +a
+fi
+
 # --- MEMORY OPTIMIZATION ---
 echo "⚛️ Step 1: Building Next.js Frontend..."
 cd frontend
@@ -27,8 +35,6 @@ cd ../..
 echo "🚀 Step 3: Starting both servers on correct separate ports..."
 if [ -n "$PGHOST" ]; then
   export DB_URL="jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}"
-else
-  export DB_URL="jdbc:postgresql://localhost:5432/saree_db"
 fi
 export DB_USERNAME=${PGUSER:-"postgres"}
 export DB_PASSWORD=${PGPASSWORD:-"postgres"}
@@ -39,8 +45,8 @@ export SERVER_PORT=8080
 mvn spring-boot:run &
 BACKEND_PID=$!
 
-# Wait a few seconds to let Backend start before frontend
-sleep 5
+# Wait 10 seconds to let Backend start compiling/booting
+sleep 10
 
 # Start Frontend on Port 3000
 cd ../../frontend
