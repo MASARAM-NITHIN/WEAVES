@@ -39,14 +39,15 @@ public class AdminDataSeeder implements CommandLineRunner {
             adminRepository.save(admin);
             System.out.println("Default admin user created with username: " + defaultUsername);
         } else {
-            // Ensure the password is correct in case it was manually inserted as plain text
+            // Force reset the password to padmavathi123 to ensure the user can log in
+            // and unlock the account if it was locked.
             Admin existingAdmin = adminRepository.findByAdminUsername(defaultUsername).get();
-            // simple check: BCrypt hashes start with $2a$ or $2b$
-            if (!existingAdmin.getAdminPassword().startsWith("$2")) {
-                existingAdmin.setAdminPassword(passwordEncoder.encode(defaultPassword));
-                adminRepository.save(existingAdmin);
-                System.out.println("Updated existing admin user password to BCrypt hash.");
-            }
+            existingAdmin.setAdminPassword(passwordEncoder.encode(defaultPassword));
+            existingAdmin.setFailedLoginAttempts(0);
+            existingAdmin.setLockoutUntil(null);
+            existingAdmin.setIsActive(true);
+            adminRepository.save(existingAdmin);
+            System.out.println("Force reset admin user password and unlocked account.");
         }
     }
 }

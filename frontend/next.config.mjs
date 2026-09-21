@@ -2,7 +2,7 @@
 
 // Internal backend address (server-to-server). Read at runtime by `next start`,
 // so it can differ between local dev and hosting (e.g. Replit) without rebuilding.
-const BACKEND_INTERNAL_URL = (process.env.BACKEND_INTERNAL_URL || 'http://localhost:8080').replace(/\/$/, '');
+const BACKEND_INTERNAL_URL = (process.env.BACKEND_INTERNAL_URL || 'http://127.0.0.1:8080').replace(/\/$/, '');
 
 const nextConfig = {
   images: {

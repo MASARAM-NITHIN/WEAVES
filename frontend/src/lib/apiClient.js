@@ -10,7 +10,7 @@ const resolveApiBaseUrl = () => {
   if (typeof window === 'undefined') {
     const internal = (process.env.BACKEND_INTERNAL_URL || '').replace(/\/$/, '');
     if (internal) return `${internal}/api`;
-    return process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8080/api';
+    return process.env.NEXT_PUBLIC_API_BASE_URL || '/api';
   }
   return process.env.NEXT_PUBLIC_API_BASE_URL || '/api';
 };
