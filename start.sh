@@ -7,6 +7,7 @@ echo "🧹 Cleaning up old processes and caches..."
 pkill -f "java" || true
 pkill -f "node" || true
 pkill -f "next" || true
+pkill -f "localtunnel" || true
 
 # --- MEMORY OPTIMIZATION ---
 echo "⚛️ Step 1: Building Next.js Frontend..."
@@ -47,5 +48,20 @@ export PORT=3000
 npm start &
 FRONTEND_PID=$!
 
-# Wait for both processes
-wait $BACKEND_PID $FRONTEND_PID
+# Wait 5 seconds to ensure frontend starts listening
+sleep 5
+
+cd ..
+echo "🌍 Generating public link for your friends..."
+rm -f tunnel.log
+npx --yes localtunnel --port 3000 --local-host 127.0.0.1 > tunnel.log 2>&1 &
+TUNNEL_PID=$!
+
+sleep 4
+echo "=========================================================="
+echo "🎯 YOUR PUBLIC SHARE LINK (Copy and send to friends):"
+grep -o 'https://.*\.loca\.lt' tunnel.log || echo "(Link generating, please check back in a few seconds...)"
+echo "=========================================================="
+
+# Wait for all processes
+wait $BACKEND_PID $FRONTEND_PID $TUNNEL_PID
